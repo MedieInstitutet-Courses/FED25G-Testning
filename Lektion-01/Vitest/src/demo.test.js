@@ -51,4 +51,15 @@ describe('Calculate shipping cost', () => {
   it('should have no shippingcost when coupon used', () => {
     expect(shippingCost(0.5, 'Free')).toBe(0);
   });
+
+  it('should throw an exception if coupon is not a string', () => {
+    expect(() => shippingCost(1, 333)).toThrow();
+    expect(() => shippingCost(1, null)).toThrow();
+    expect(() => shippingCost(1, null)).toThrow(/kupong/i);
+  });
+
+  it('should throw an exception when weight i 0 or less', () => {
+    expect(() => shippingCost(-1)).toThrow();
+    expect(() => shippingCost(0)).toThrow();
+  });
 });

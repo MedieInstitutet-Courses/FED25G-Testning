@@ -12,6 +12,10 @@ export const shippingCost = (weight, coupon = '') => {
   if (typeof weight !== 'number')
     throw new Error('Vikten måste vara ett numeriskt värde');
 
+  if (typeof coupon !== 'string') throw new Error('Kupong måste vara text');
+
+  if (weight <= 0) throw new Error('Vikten måste vara större än 0');
+
   if (coupon.toUpperCase() === 'FREE') return 0;
 
   if (weight <= 1) return 100;

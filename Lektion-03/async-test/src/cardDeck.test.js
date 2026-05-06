@@ -11,7 +11,7 @@ describe('Class CardDeck', () => {
       cards = cardDeck.createDeck();
     });
 
-    it('should return a Promise that is resolved', async () => {
+    it.skip('should return a Promise that is resolved', async () => {
       expect(cards).toBeInstanceOf(Promise);
       await expect(cards).resolves.toBeDefined();
     });

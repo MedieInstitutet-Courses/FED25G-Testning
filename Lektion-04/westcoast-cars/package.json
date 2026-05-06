@@ -1,0 +1,20 @@
+{
+  "name": "westcoast-cars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx json-server data/vehicles.json",
+    "test": "vitest",
+    "test-ui": "vitest --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.5",
+    "happy-dom": "^20.9.0",
+    "json-server": "^1.0.0-beta.15",
+    "vitest": "^4.1.5"
+  }
+}

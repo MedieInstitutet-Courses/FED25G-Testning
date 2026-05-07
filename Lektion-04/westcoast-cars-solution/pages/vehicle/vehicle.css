@@ -1,0 +1,45 @@
+@import '../../assets/site.css';
+@import '../../assets/navbar.css';
+@import '../../assets/colors.css';
+@import '../../assets/utilities.css';
+
+body {
+  background: var(--background-primary);
+}
+
+.details {
+  padding: 2rem 3rem;
+}
+
+.details img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+  color: var(--text-color-dark);
+  padding: 1rem 2rem 1.8rem 2rem;
+  background-color: var(--background-light);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.info h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.info h3 {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+}

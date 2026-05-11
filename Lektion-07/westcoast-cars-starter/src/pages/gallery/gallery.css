@@ -1,0 +1,45 @@
+@import '../../assets/site.css';
+@import '../../assets/navbar.css';
+@import '../../assets/colors.css';
+@import '../../assets/utilities.css';
+
+body {
+  background: var(--background-primary);
+}
+
+#vehicles-gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 3rem;
+}
+
+.card img {
+  cursor: pointer;
+}
+
+.image-info {
+  position: absolute;
+  top: -23px;
+  right: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: var(--text-color-active);
+  border: solid 1px var(--text-color-light);
+  padding: 0.5rem 1rem;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  #vehicles-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  #vehicles-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,76 @@
+@import '../../assets/site.css';
+@import '../../assets/navbar.css';
+@import '../../assets/colors.css';
+@import '../../assets/utilities.css';
+
+#contact-form {
+  padding: 3rem;
+}
+
+#contact-form form {
+  background-color: var(--background-testimonial);
+  padding: 2rem;
+  color: var(--text-color-light);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 0.7rem;
+}
+
+#contact-form .form-control {
+  margin-bottom: 1rem;
+}
+
+#contact-form label {
+  display: block;
+}
+
+#contact-form form button {
+  width: 100%;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 0.63rem;
+  border: solid 1px var(--border-color);
+  border-radius: 0.4rem;
+}
+
+#contact-form textarea {
+  height: 12.5rem;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none !important;
+  border: solid 1px var(--border-highlight-color);
+}
+
+#contact-info {
+  background: var(--primary-color);
+  color: var(--text-color-light);
+}
+
+#contact-info .box {
+  border-bottom: dotted 1px var(--border-color);
+}
+
+#contact-info .box:last-child {
+  border-bottom: none;
+}
+
+/* Media Queries */
+/* min-width: 768px */
+@media (min-width: 768px) {
+  #contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  #contact-info > div {
+    display: flex;
+    justify-content: space-around;
+  }
+  #contact-info .box {
+    border-bottom: none;
+  }
+}

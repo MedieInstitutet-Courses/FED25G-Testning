@@ -33,7 +33,8 @@ export default class HttpClient {
       const response = await fetch(url);
 
       if (response.ok) {
-        return await response.json();
+        const data = await response.json();
+        return { status: 200, data };
       } else {
         throw new Error(`${response.status} ${response.statusText}`);
       }

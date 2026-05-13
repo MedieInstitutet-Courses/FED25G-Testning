@@ -15,37 +15,19 @@ const initApp = async () => {
 };
 
 export const addVehicle = async (vehicle) => {
-  // return { status: 201, vehicle };
   const http = new HttpClient('vehicles');
   return await http.addVehicle(vehicle);
 };
 
 export const getVehicle = async (id) => {
-  // TODO: Hämta ifrån REST API när Alexander är klar...
-  const vehicle = VEHICLES.find((v) => v.id === id);
-  return vehicle;
-  // return await new HttpClient('vehicles').findVehicle(id);
-  // return {
-  //   id: 1,
-  //   registrationNumber: 'ABC123',
-  //   manufacturer: 'Chevrolet',
-  //   model: 'Corvette',
-  //   modelYear: '2015',
-  //   imageUrl:
-  //     'https://res.cloudinary.com/softtech-dev/image/upload/v1771144614/jersnav-corvette-7100524_lnd9au.jpg',
-  //   mileage: 125000,
-  //   value: 175000,
-  //   description:
-  //     'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-  // };
+  return await new HttpClient('vehicles').findVehicle(id);
 };
 
 export const generateHtml = (vehicle) => {
   return createDisplayVehicle(vehicle);
 };
 
-initApp();
-// document.addEventListener('DOMContentLoaded', initApp);
+document.addEventListener('DOMContentLoaded', initApp);
 
 const VEHICLES = [
   {

@@ -1,0 +1,10 @@
+
+# Playwright
+node_modules/
+.vscode
+.DS_Store
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

@@ -1,0 +1,25 @@
+{
+  "name": "westcoast-cars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "api": "npx json-server src/data/vehicles.json",
+    "test": "npx playwright test",
+    "test:unit": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.2",
+    "happy-dom": "^20.9.0",
+    "json-server": "^1.0.0-beta.15",
+    "vitest": "^4.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

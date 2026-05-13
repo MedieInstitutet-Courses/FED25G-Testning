@@ -1,0 +1,114 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "registrationNumber": "ABC123",
+      "manufacturer": "Chevrolet",
+      "model": "Corvette",
+      "modelYear": "2015",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1771144614/jersnav-corvette-7100524_lnd9au.jpg",
+      "mileage": 125000,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 2,
+      "registrationNumber": "DEF345",
+      "manufacturer": "Ford",
+      "model": "Mustang",
+      "modelYear": "2017",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1744229052/car2_ljnqt8.jpg",
+      "mileage": 48500,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 3,
+      "registrationNumber": "GHI678",
+      "manufacturer": "Porsche",
+      "model": "Alpine",
+      "modelYear": "1967",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1769077570/car3_mbq58x.jpg",
+      "mileage": 89000,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 4,
+      "registrationNumber": "JKL901",
+      "manufacturer": "Mercedes",
+      "model": "S500",
+      "modelYear": "2019",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1769077612/car4_yv1ppv.jpg",
+      "mileage": 101000,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 5,
+      "registrationNumber": "MNO902",
+      "manufacturer": "Mercedes",
+      "model": "AMG",
+      "modelYear": "2014",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1769077641/car5_biptbu.jpg",
+      "mileage": 178000,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 6,
+      "registrationNumber": "PGQ123",
+      "manufacturer": "Audi",
+      "model": "A6",
+      "modelYear": "2013",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1769077642/car6_gtfmde.jpg",
+      "mileage": 197500,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 7,
+      "registrationNumber": "RST456",
+      "manufacturer": "Volvo",
+      "model": "V60",
+      "modelYear": "2016",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1771144785/carlos4916-volvo-2396040_quak0b.jpg",
+      "mileage": 236500,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 8,
+      "registrationNumber": "EGH956",
+      "manufacturer": "Chevrolet",
+      "model": "Impala",
+      "modelYear": "1958",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1769077682/car13_stwdx6.jpg",
+      "mileage": 348000,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 9,
+      "registrationNumber": "CEZ420",
+      "manufacturer": "Lambourghini",
+      "model": "Aventador",
+      "modelYear": "2013",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1769077662/car12_dq3tdj.jpg",
+      "mileage": 650000,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "id": 10,
+      "registrationNumber": "BCA103",
+      "manufacturer": "Ferrari",
+      "model": "458",
+      "modelYear": "2013",
+      "imageUrl": "https://res.cloudinary.com/softtech-dev/image/upload/v1769077664/car11_g41x0a.jpg",
+      "mileage": 450000,
+      "value": 175000,
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    }
+  ]
+}

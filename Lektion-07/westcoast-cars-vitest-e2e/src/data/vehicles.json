@@ -1,7 +1,7 @@
 {
   "vehicles": [
     {
-      "id": 1,
+      "id": "1",
       "registrationNumber": "ABC123",
       "manufacturer": "Chevrolet",
       "model": "Corvette",
@@ -12,7 +12,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 2,
+      "id": "2",
       "registrationNumber": "DEF345",
       "manufacturer": "Ford",
       "model": "Mustang",
@@ -23,7 +23,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 3,
+      "id": "3",
       "registrationNumber": "GHI678",
       "manufacturer": "Porsche",
       "model": "Alpine",
@@ -34,7 +34,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 4,
+      "id": "4",
       "registrationNumber": "JKL901",
       "manufacturer": "Mercedes",
       "model": "S500",
@@ -45,7 +45,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 5,
+      "id": "5",
       "registrationNumber": "MNO902",
       "manufacturer": "Mercedes",
       "model": "AMG",
@@ -56,7 +56,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 6,
+      "id": "6",
       "registrationNumber": "PGQ123",
       "manufacturer": "Audi",
       "model": "A6",
@@ -67,7 +67,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 7,
+      "id": "7",
       "registrationNumber": "RST456",
       "manufacturer": "Volvo",
       "model": "V60",
@@ -78,7 +78,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 8,
+      "id": "8",
       "registrationNumber": "EGH956",
       "manufacturer": "Chevrolet",
       "model": "Impala",
@@ -89,7 +89,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 9,
+      "id": "9",
       "registrationNumber": "CEZ420",
       "manufacturer": "Lambourghini",
       "model": "Aventador",
@@ -100,7 +100,7 @@
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
     },
     {
-      "id": 10,
+      "id": "10",
       "registrationNumber": "BCA103",
       "manufacturer": "Ferrari",
       "model": "458",
@@ -109,6 +109,95 @@
       "mileage": 450000,
       "value": 175000,
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "sCH9mVKLYto"
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "MGMLo_O5jgc"
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "S1Q1LG7-X3c"
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "PTGtKAyAez0"
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "P5i9t5Kk4Ww"
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "zg0h_kv0U4Y"
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "c1pbDsYeScc"
+    },
+    {
+      "registrationNumber": "RNG001",
+      "manufacturer": "Volvo",
+      "model": "X40e",
+      "modelYear": "2025",
+      "imageUrl": "",
+      "mileage": 1000,
+      "value": 345000,
+      "description": "Test bil",
+      "id": "7L37SF_72s8"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

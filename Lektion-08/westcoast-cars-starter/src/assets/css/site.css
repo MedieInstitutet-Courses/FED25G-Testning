@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './colors.css';
+
+:root {
+  --max-width: 960px;
+  --page-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: var(--background-light);
+}
+
+main {
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+section p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px var(--text-color-active);
+  background: none;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+  position: relative;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+/* MEDIA QUERIES */
+/* min-width: 768px */
+@media (min-width: 768px) {
+  section p {
+    font-size: 1rem;
+  }
+
+  section i {
+    font-size: 1.3rem;
+  }
+}
